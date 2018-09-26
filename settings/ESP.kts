@@ -31,14 +31,14 @@ SKELETON_ESP = false
 /**
  * Whether or not to use box ESP.
  */
-BOX_ESP = false
+BOX_ESP = true
 
 /**
  * Whether or not to use the within-game glow ESP.
  *
  * This ESP **CANNOT** be hidden from game capture for streaming.
  */
-GLOW_ESP = true
+GLOW_ESP = false
 
 
 
@@ -49,7 +49,7 @@ GLOW_ESP = true
 /**
  * Whether or not to highlight your team mates.
  */
-SHOW_TEAM = true
+SHOW_TEAM = false
 
 /**
  * Whether or not to highlight enemies.
@@ -62,7 +62,7 @@ SHOW_ENEMIES = true
  * Enabling this can allow you to see players at a further distance,
  * but you may see some "ghost" players which are really not there.
  */
-SHOW_DORMANT = false
+SHOW_DORMANT = true
 
 /**
  * Whether or not to highlight the bomb.
@@ -77,7 +77,7 @@ SHOW_WEAPONS = false
 /**
  * Whether or not to highlight grenades.
  */
-SHOW_GRENADES = false
+SHOW_GRENADES = true
 
 
 
