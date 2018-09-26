@@ -40,15 +40,15 @@ FORCE_AIM_KEY = 5
 /**
  * The field of view of the aimbot, in degrees (0 to 360).
  */
-AIM_FOV = 190
+AIM_FOV = 10
 
 /**
  * The aimbot's "playback" speed, the higher the value the slower the playback.
  *
  * The minimum value is 1, and max must always be greater than min.
  */
-AIM_SPEED_MIN = 28
-AIM_SPEED_MAX = 36
+AIM_SPEED_MIN = 18
+AIM_SPEED_MAX = 24
 
 /**
  * The strictness, or "stickiness" of the aimbot; the higher the number, the
@@ -56,7 +56,7 @@ AIM_SPEED_MAX = 36
  *
  * The minimum value is 1.0
  */
-AIM_STRICTNESS = 1.0
+AIM_STRICTNESS = 1.4
 
 
 
@@ -113,9 +113,9 @@ AIM_DURATION = 1
 /**
  * The amount of sprayed shots until the aimbot shifts to aiming at the [SHOULDER_BONE].
  */
-SHIFT_TO_SHOULDER_SHOTS = 4
+SHIFT_TO_SHOULDER_SHOTS = 3
 
 /**
  * The amount of sprayed shots until the aimbot shifts to aiming at the [BODY_BONE].
  */
-SHIFT_TO_BODY_SHOTS = 7
+SHIFT_TO_BODY_SHOTS = 6
