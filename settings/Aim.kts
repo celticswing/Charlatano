@@ -47,8 +47,8 @@ AIM_FOV = 10
  *
  * The minimum value is 1, and max must always be greater than min.
  */
-AIM_SPEED_MIN = 18
-AIM_SPEED_MAX = 24
+AIM_SPEED_MIN = 10
+AIM_SPEED_MAX = 16
 
 /**
  * The strictness, or "stickiness" of the aimbot; the higher the number, the
@@ -56,7 +56,7 @@ AIM_SPEED_MAX = 24
  *
  * The minimum value is 1.0
  */
-AIM_STRICTNESS = 1.4
+AIM_STRICTNESS = 2.2
 
 
 
@@ -113,9 +113,9 @@ AIM_DURATION = 1
 /**
  * The amount of sprayed shots until the aimbot shifts to aiming at the [SHOULDER_BONE].
  */
-SHIFT_TO_SHOULDER_SHOTS = 3
+SHIFT_TO_SHOULDER_SHOTS = 4
 
 /**
  * The amount of sprayed shots until the aimbot shifts to aiming at the [BODY_BONE].
  */
-SHIFT_TO_BODY_SHOTS = 6
+SHIFT_TO_BODY_SHOTS = 7
