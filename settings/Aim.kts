@@ -27,7 +27,7 @@ import com.charlatano.settings.*
  *
  * You should disable this if you don't want aim to activate when left clicking.
  */
-ACTIVATE_FROM_FIRE_KEY = false
+ACTIVATE_FROM_FIRE_KEY = true
 
 /**
  * The key code of the force aim button.
@@ -47,8 +47,8 @@ AIM_FOV = 10
  *
  * The minimum value is 1, and max must always be greater than min.
  */
-AIM_SPEED_MIN = 10
-AIM_SPEED_MAX = 16
+AIM_SPEED_MIN = 7
+AIM_SPEED_MAX = 14
 
 /**
  * The strictness, or "stickiness" of the aimbot; the higher the number, the
@@ -56,7 +56,7 @@ AIM_SPEED_MAX = 16
  *
  * The minimum value is 1.0
  */
-AIM_STRICTNESS = 2.2
+AIM_STRICTNESS = 2.3
 
 
 
@@ -92,7 +92,7 @@ PERFECT_AIM_CHANCE = 100
  *
  * This setting should be used by high-level players who are experienced aimers.
  */
-AIM_ASSIST_MODE = true
+AIM_ASSIST_MODE = false
 
 /**
  * The amount of strictness for the aim assist mode, with a minimum value of 1.
